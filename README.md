@@ -1,4 +1,4 @@
-# **AI-Driven Sentiment Trading Bot**
+# **AI-Driven Trading Bot**
 
 An automated algorithmic trading bot built in Python that leverages natural language processing to make data-driven market decisions. Built on the Lumibot framework and integrated with the Alpaca Trade API, this bot uses the FinBERT NLP model to analyze the sentiment of real-time financial news. It features robust risk management protocols and has been rigorously backtested to ensure strategy viability.
 
