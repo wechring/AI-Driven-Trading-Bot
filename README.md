@@ -7,13 +7,13 @@ An automated algorithmic trading bot built in Python that leverages natural lang
 
 ## Table of Contents
 
-* [Features](https://www.google.com/search?q=%23features)
-* [Tech Stack](https://www.google.com/search?q=%23tech-stack)
-* [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-* [Installation](https://www.google.com/search?q=%23installation)
-* [Configuration](https://www.google.com/search?q=%23configuration)
-* [Usage](https://www.google.com/search?q=%23usage)
-* [Disclaimer](https://www.google.com/search?q=%23disclaimer)
+* [Features](https://github.com/wechring/AI-Driven-Trading-Bot#features)
+* [Tech Stack](https://github.com/wechring/AI-Driven-Trading-Bot#tech-stack)
+* [Prerequisites](https://github.com/wechring/AI-Driven-Trading-Bot#prerequisites)
+* [Installation](https://github.com/wechring/AI-Driven-Trading-Bot#installation)
+* [Configuration](https://github.com/wechring/AI-Driven-Trading-Bot#configuration)
+* [Usage](https://github.com/wechring/AI-Driven-Trading-Bot#usage)
+* [Disclaimer](https://github.com/wechring/AI-Driven-Trading-Bot#disclaimer)
 
 ## Features
 
