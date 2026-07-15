@@ -4,13 +4,13 @@ An automated algorithmic trading bot built in Python that leverages natural lang
 
 ## Table of Contents
 
-* [Features](https://github.com/wechring/AI-Driven-Trading-Bot#features)
-* [Tech Stack](https://github.com/wechring/AI-Driven-Trading-Bot#tech-stack)
-* [Prerequisites](https://github.com/wechring/AI-Driven-Trading-Bot#prerequisites)
-* [Installation](https://github.com/wechring/AI-Driven-Trading-Bot#installation)
-* [Configuration](https://github.com/wechring/AI-Driven-Trading-Bot#configuration)
-* [Usage](https://github.com/wechring/AI-Driven-Trading-Bot#usage)
-* [Disclaimer](https://github.com/wechring/AI-Driven-Trading-Bot#disclaimer)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [Configuration](#configuration)
+* [Usage](#usage)
+* [Disclaimer](#disclaimer)
 
 ## Features
 
@@ -22,9 +22,9 @@ An automated algorithmic trading bot built in Python that leverages natural lang
 
 ## Tech Stack
 
-* **Language:** Python 3.x
+* **Language:** Python 3.10
 * **Framework:** Lumibot
-* **Machine Learning/NLP:** FinBERT (Hugging Face)
+* **Machine Learning/NLP:** FinBERT (Hugging Face Transformers / PyTorch)
 * **Broker/Data API:** Alpaca Trade API
 
 
@@ -32,8 +32,8 @@ An automated algorithmic trading bot built in Python that leverages natural lang
 
 Before you begin, ensure you have met the following requirements:
 
-* Python 3.8 or higher installed.
-* An active [Alpaca](https://www.google.com/search?q=https://alpaca.markets/) account with API keys generated (Paper Trading recommended for testing).
+* **Python 3.10** installed.
+* An active [Alpaca](https://alpaca.markets/) account with API keys generated (Paper Trading recommended for testing).
 
 ## Installation
 
@@ -45,11 +45,14 @@ cd AI-Driven-Trading-Bot
 
 ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment (required):
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python3.10 -m venv .venv
+# On Mac use
+source .venv/bin/activate  
+# On Windows use 
+.venv\Scripts\activate
 
 ```
 
@@ -62,15 +65,18 @@ pip install -r requirements.txt
 
 ## Configuration
 
-1. Create a `.env` file in the root directory of the project.
-2. Add your Alpaca API credentials to the `.env` file:
+1. Duplicate the example environment file:
 
-```env
-ALPACA_API_KEY=your_api_key_here
-ALPACA_API_SECRET=your_api_secret_here
-ALPACA_ENDPOINT=https://paper-api.alpaca.markets
+```bash
+# On macOS/Linux:
+cp .env.example .env
 
+# On Windows:
+copy .env.example .env
 ```
+
+2. Open the newly created `.env` file and replace `your_api_key_here` and `your_api_secret_here` with your actual Alpaca (real or paper) trading credentials.
+
 
 ## Usage
 
