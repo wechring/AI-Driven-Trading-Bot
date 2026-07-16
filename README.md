@@ -49,11 +49,14 @@ cd AI-Driven-Trading-Bot
 
 ```bash
 python3.10 -m venv .venv
+```
 # On Mac use
+```bash
 source .venv/bin/activate  
+```
 # On Windows use 
+```bash
 .venv\Scripts\activate
-
 ```
 
 3. Install the required dependencies:
@@ -67,11 +70,13 @@ pip install -r requirements.txt
 
 1. Duplicate the example environment file:
 
-```bash
-# On macOS/Linux:
-cp .env.example .env
 
+# On macOS/Linux:
+```bash
+cp .env.example .env
+```
 # On Windows:
+```bash
 copy .env.example .env
 ```
 
