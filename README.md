@@ -71,11 +71,11 @@ pip install -r requirements.txt
 1. Duplicate the example environment file:
 
 
-# On macOS/Linux:
+**On macOS/Linux:**
 ```bash
 cp .env.example .env
 ```
-# On Windows:
+**On Windows:**
 ```bash
 copy .env.example .env
 ```
