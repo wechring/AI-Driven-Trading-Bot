@@ -7,11 +7,6 @@ from datetime import datetime, timedelta
 from alpaca_trade_api.rest import REST, URL
 from finbert_utils import predict_sentiment
 
-
-API_KEY = "PKXEB4ABBUBU6C6IEQNMP255HC"
-API_SECRET = "APScXAQjkmWFtLktjGM8gTJ5r7eNRsS7Dp2atCxnZB1M"
-BASE_URL = URL("https://paper-api.alpaca.markets/v2")
-
 ALPACA_CREDS = {
     "API_KEY": API_KEY,
     "API_SECRET": API_SECRET,
